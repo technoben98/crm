@@ -1,0 +1,35 @@
+.generalInfo {
+  transition: max-height 0.3s ease;
+  overflow: hidden;
+  max-height: 1000px;
+}
+
+.generalInfo.closed {
+  max-height: 0;
+  overflow: hidden;
+}
+.form {
+  transition: max-height 0.2s ease;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.form.closed {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.left {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.overlayOpened {
+  transition: max-height 0.3s ease;
+  display: block;
+  overflow: hidden;
+  max-height: 1000px;
+}
+.overlayClosed {
+  display: none;
+  overflow: hidden;
+}

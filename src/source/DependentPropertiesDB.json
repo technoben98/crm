@@ -1,0 +1,11 @@
+{
+  "interviews": ["Campus", "Year", "Cohort#", "IIA Program"],
+  "Contract send": [
+    "Amount",
+    "Cohort#",
+    "Currency",
+    "IIA Program",
+    "Contract Link"
+  ],
+  "Closed": ["Reason"]
+}
